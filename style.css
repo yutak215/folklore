@@ -335,8 +335,8 @@ footer small {
 
 @media screen and (max-width: 767px) {
 
-#wrapper {
-    
+.pc {
+    display: none;
 }
 
 /* Top */
@@ -443,7 +443,41 @@ footer small {
 }
 
 #wrapper #top .top-inner .inner-box .sp-text-box .sp-top-text p {
-    font-size: 1rem;
+    font-size: 0.9rem;
+    line-height: 1.8rem;
+}
+
+/* #look */
+
+#wrapper #look {
+    margin: 10% 3%;
+}
+
+#wrapper #look .lookbox .look-container .swiper-img {
+    border-radius: 3%;
+    width: 100%;
+}
+
+#wrapper #look .lookbox .look-container .look-text-right .look-header {
+    margin: 10% 0;
+}
+
+#wrapper #look .lookbox .look-container .look-text-right .look-header .num {
+    font-weight: 700;
+}
+
+#wrapper #look .lookbox .look-container .look-text-right .look-header h5 {
+    font-size: 1.35rem;
+    font-weight: 700;
+    line-height: 2.2rem;
+    text-decoration: underline;
+    text-decoration-thickness: 0.05rem;
+    margin: 3% 0;
+}
+
+#wrapper #look .lookbox .look-container .look-text-right .look-header .text {
+    font-size: 0.86rem;
+    line-height: 1.8rem;
 }
 
 
