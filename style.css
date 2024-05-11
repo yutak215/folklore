@@ -331,6 +331,172 @@ footer small {
     text-align: center;
 }
 
+
+
+
+@media screen and (min-width: 768px) {
+
+    .sp {
+        display: none !important;
+    }
+
+    
+
+/* #wrapper */
+
+/* header */
+
+body #wrapper header {
+    position: absolute;
+    width: 5.69%;
+    left: 20px;
+    top: 20px;
+    display: inline-block;
+}
+
+/* #top */
+/* .inner */
+ .top-inner {
+    position: relative;
+}
+
+.titlearea {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 30%;
+}
+
+.logo-season {
+    width: 20%;
+}
+
+#logo-title {
+    width: 40%;
+}
+
+/* inner-box */
+
+.inner-box {
+    display: flex;
+}
+
+.inner-box .image-area  .top-text h4 {
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: 700;
+}
+
+.inner-box .image-area  .top-text p {
+    font-size: 1.15rem;
+    line-height: 2.2rem;
+}
+
+.image-area {
+    width: 50%;
+}
+
+.image-area {
+    padding: 10% 0 0 5%;
+}
+
+.inner-img1 {
+    width: 60%;
+    border-radius: 30px;
+}
+
+.inner-right {
+    width: 50%;
+}
+
+.inner-img2 {
+    width: 100%;
+}
+
+.sp-text-box {
+    display: none;
+}
+
+/* #look */
+
+#look {
+    margin-top: 5%;
+}
+
+.look-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 5% 0;
+}
+
+.look-img-left {
+    width: 30%;
+    padding-left: 20%;
+}
+
+.look-img-right {
+    width: 30%;
+    padding-right: 20%;
+}
+
+.swiper-img {
+    height: 100%;
+    width: 100%;
+    border-radius: 4%;
+}
+
+/* look-text */
+
+  .look-text-right {
+    width: 27%;
+    padding-right: 21%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .look-text-left {
+    width: 27%;
+    padding-left: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .num {
+    font-size: 0.5rem;
+  }
+
+  .look-header h5 {
+    font-size: 1rem;
+  }
+
+  .text {
+    font-size: 1rem;
+  }
+
+  .look-credit {
+    max-width: 390px;
+  }
+
+  .text-group {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .no-available {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+
+
+
+
+
 }
 
 @media screen and (max-width: 767px) {
